@@ -49,3 +49,11 @@ navLinks[2].textContent = 'Vision'
 navLinks[3].textContent = 'Features'
 navLinks[4].textContent = 'About'
 navLinks[5].textContent = 'Contact'
+
+const logoImg = document.querySelector('#logo-img');
+console.log(logoImg)
+logoImg.src = 'img/logo.png'
+
+const headerImg = document.querySelector('#cta-img');
+console.log(headerImg)
+headerImg.src = 'img/header-img.png'
