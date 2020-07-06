@@ -131,3 +131,8 @@ console.log(contactInfo)
 const contactAddress = contactInfo[0].innerHTML = '123 Way 456 Street<br> Somewhere, USA'
 const contactNumber = contactInfo[1].textContent = '1 (888) 888-8888'
 const contactEmail = contactInfo[2].textContent = 'sales@greatidea.io'
+
+//footer p
+const footerP = document.querySelector('footer p')
+console.log(footerP)
+footerP.textContent = 'Copyright Great Idea! 2018'
