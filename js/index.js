@@ -57,3 +57,11 @@ logoImg.src = 'img/logo.png'
 const headerImg = document.querySelector('#cta-img');
 console.log(headerImg)
 headerImg.src = 'img/header-img.png'
+
+const headerTitle = document.querySelector('.cta-text h1')
+console.log(headerTitle)
+headerTitle.innerHTML = 'DOM<br> Is<br> Awesome'
+
+const buttonText = document.querySelector('.cta-text button')
+console.log(buttonText);
+buttonText.textContent = 'Get Started'
