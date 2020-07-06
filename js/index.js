@@ -136,3 +136,25 @@ const contactEmail = contactInfo[2].textContent = 'sales@greatidea.io'
 const footerP = document.querySelector('footer p')
 console.log(footerP)
 footerP.textContent = 'Copyright Great Idea! 2018'
+
+//nav links text to green
+navLinks.forEach(item => item.style.color = 'green')
+
+
+//adding 2 new items to nav
+const newNavLinkOne = document.createElement('a')
+const newNavLinkTwo = document.createElement('a')
+newNavLinkOne.textContent = 'hiiii'
+newNavLinkTwo.textContent = 'byeee'
+newNavLinkOne.href = '#'
+newNavLinkTwo.href = '#'
+const nav = document.querySelector('nav')
+console.log(nav)
+nav.prepend(newNavLinkOne)
+nav.appendChild(newNavLinkTwo)
+
+
+
+console.log(newNavLinkOne)
+console.log(newNavLinkTwo)
+
