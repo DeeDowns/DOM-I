@@ -43,12 +43,12 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 const navLinks = document.querySelectorAll('nav a');
 console.log(navLinks)
-navLinks[0].textContent = 'Services'
-navLinks[1].textContent = 'Product'
-navLinks[2].textContent = 'Vision'
-navLinks[3].textContent = 'Features'
-navLinks[4].textContent = 'About'
-navLinks[5].textContent = 'Contact'
+const serviceLink = navLinks[0].textContent = 'Services'
+const productLink = navLinks[1].textContent = 'Product'
+const visionLink = navLinks[2].textContent = 'Vision'
+const featuresLink = navLinks[3].textContent = 'Features'
+const aboutLink = navLinks[4].textContent = 'About'
+const contactLink = navLinks[5].textContent = 'Contact'
 
 const logoImg = document.querySelector('#logo-img');
 console.log(logoImg)
@@ -65,3 +65,12 @@ headerTitle.innerHTML = 'DOM<br> Is<br> Awesome'
 const buttonText = document.querySelector('.cta-text button')
 console.log(buttonText);
 buttonText.textContent = 'Get Started'
+
+const fourHeadings = document.querySelectorAll('.text-content h4');
+console.log(fourHeadings)
+
+const features = fourHeadings[0].textContent = 'Features'
+const about = fourHeadings[1].textContent = 'About'
+const services = fourHeadings[2].textContent = 'Services'
+const product = fourHeadings[3].textContent = 'Product'
+const vision = fourHeadings[4].textContent = 'Vision'
